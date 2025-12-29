@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Arena Rocha🔵🟡</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<header class="topo">
+    <div class="logo-container">
+        <img src="{{ url_for('static', filename='img/logo.jpg') }}"
+             alt="Arena Rocha"
+             class="logo">
+    </div>
+</header>
+
+<div class="cabecalho-texto">
+    <h1>🟡Torneio de Futevôlei🔵</h1>
+    <h2>Categoria: Iniciante</h2>
+
+    <a href="https://www.youtube.com/@ArenaRochaTV"
+       target="_blank"
+       class="youtube-link">
+       <img src="{{ url_for('static', filename='img/youtube.png') }}"
+            alt="YouTube"
+            class="youtube-icon">
+    </a>
+</div>
+
+
+<!-- FASE DE GRUPOS -->
+{% for grupo, times in grupos.items() %}
+<section>
+    <h2 class="titulo-fase">{{ grupo }}</h2>
+    <table>
+        <tr>
+            <th>Dupla</th>
+            <th>Vitórias</th>
+            <th>Derrotas</th>
+            <th>Pontos Pró</th>
+            <th>Pontos Contra</th>
+            <th>Saldo de Pontos</th>
+        </tr>
+        {% for time in times %}
+        <tr>
+            <td>{{ time.dupla }}</td>
+            <td>{{ time.vitorias }}</td>
+            <td>{{ time.derrotas }}</td>
+            <td>{{ time.pro }}</td>
+            <td>{{ time.contra }}</td>
+            <td>{{ time.saldo }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</section>
+{% endfor %}
+
+<!-- GRUPOS -->
+<section>
+    <h2 class="titulo-fase">Jogos Grupo A</h2>
+    <ul>
+        {% for jogo in grupo_jogos_A %}
+        <li>{{ jogo }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section>
+    <h2 class="titulo-fase">Jogos Grupo B</h2>
+    <ul>
+        {% for jogo in grupo_jogos_B %}
+        <li>{{ jogo }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section>
+    <h2 class="titulo-fase">Jogos Grupo C</h2>
+    <ul>
+        {% for jogo in grupo_jogos_C %}
+        <li>{{ jogo }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section>
+    <h2 class="titulo-fase">Jogos Grupo D</h2>
+    <ul>
+        {% for jogo in grupo_jogos_D %}
+        <li>{{ jogo }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+<!-- QUARTAS -->
+<section>
+    <h2 class="titulo-fase">Quartas de Final</h2>
+    <ul>
+        {% for jogo in quartas %}
+        <li>{{ jogo }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+<!-- SEMIFINAL -->
+<section>
+    <h2 class="titulo-fase">Semifinais</h2>
+    <ul>
+        {% for jogo in semifinais %}
+        <li>{{ jogo }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+<!-- TERCEIRO -->
+<section>
+    <h2 class="titulo-fase">🥉Terceiro Lugar🥉</h2>
+    <ul>
+        {% for jogo in terceiro %}
+        <li>{{ jogo }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+<!-- FINAL -->
+<section>
+    <h2 class="titulo-fase">🏆Final🏆</h2>
+    <ul>
+        {% for jogo in final %}
+        <li>{{ jogo }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+</body>
+</html>

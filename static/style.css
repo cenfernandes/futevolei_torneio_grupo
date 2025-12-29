@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    background: repeating-linear-gradient(
+        to bottom,
+        #0b2c6d 0%,      /* azul escuro */
+        #1e5aa8 45%,     /* azul claro */
+        #f2c300 55%,     /* amarelo */
+        #ffd84d 100%     /* amarelo claro */
+    );
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+table {
+    margin: auto;
+    width: 60%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    background: #fff;
+    margin: 10px auto;
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.topo {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    max-height: 280px;
+    height: auto;
+}
+
+.cabecalho-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+}
+
+.cabecalho-texto h1 {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.cabecalho-texto h2 {
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo-fase {
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.youtube-link {
+    margin-top: 6px;
+}
+
+.youtube-icon {
+    height: 48px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    /* Textos do topo */
+    .cabecalho-texto h1 {
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+    .cabecalho-texto h2 {
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    /* Ícone do YouTube */
+    .youtube-icon {
+        height: 36px;
+    }
+
+    /* Tabelas */
+    table {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    /* Cards de jogos */
+    li {
+        width: 60%;
+        font-size: 14px;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
