@@ -105,7 +105,7 @@ def index():
     ]
 
     final = [
-        "Vencedor Semifinal 1 10 x 0 Vencedor Semifinal 2"
+        "Vencedor Semifinal 1 0 x 0 Vencedor Semifinal 2"
     ]
 
     return render_template(
