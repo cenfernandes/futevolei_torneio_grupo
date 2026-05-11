@@ -26,28 +26,24 @@ def index():
             {"dupla": "Dupla A1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla A2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla A3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla A4", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo B": [
             {"dupla": "Dupla B1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla B2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla B3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla B4", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo C": [
             {"dupla": "Dupla C1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla C2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla C3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla C4", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo D": [
             {"dupla": "Dupla D1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla D2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla D3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla D4", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ]
     }
 
@@ -55,37 +51,25 @@ def index():
     grupo_jogos_A = [
         "Dupla A1 0 x 0 Dupla A2",
         "Dupla A1 0 x 0 Dupla A3",
-        "Dupla A1 0 x 0 Dupla A4",
-        "Dupla A2 0 x 0 Dupla A3",
-        "Dupla A2 0 x 0 Dupla A4",
-        "Dupla A3 0 x 0 Dupla A4"
+        "Dupla A2 0 x 0 Dupla A3"
     ]
     
     grupo_jogos_B = [
         "Dupla B1 0 x 0 Dupla B2",
         "Dupla B1 0 x 0 Dupla B3",
-        "Dupla B1 0 x 0 Dupla B4",
-        "Dupla B2 0 x 0 Dupla B3",
-        "Dupla B2 0 x 0 Dupla B4",
-        "Dupla B3 0 x 0 Dupla B4"
+        "Dupla B2 0 x 0 Dupla B3"
     ]
     
     grupo_jogos_C = [
         "Dupla C1 0 x 0 Dupla C2",
         "Dupla C1 0 x 0 Dupla C3",
-        "Dupla C1 0 x 0 Dupla C4",
-        "Dupla C2 0 x 0 Dupla C3",
-        "Dupla C2 0 x 0 Dupla C4",
-        "Dupla C3 0 x 0 Dupla C4"
+        "Dupla C2 0 x 0 Dupla C3"
     ]
     
     grupo_jogos_D = [
         "Dupla D1 0 x 0 Dupla D2",
         "Dupla D1 0 x 0 Dupla D3",
-        "Dupla D1 0 x 0 Dupla D4",
-        "Dupla D2 0 x 0 Dupla D3",
-        "Dupla D2 0 x 0 Dupla D4",
-        "Dupla D3 0 x 0 Dupla D4"
+        "Dupla D2 0 x 0 Dupla D3"
     ]
     
     quartas = [
