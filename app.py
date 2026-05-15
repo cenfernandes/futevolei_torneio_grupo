@@ -23,53 +23,53 @@ def index():
     # ===== FASE DE GRUPOS =====
     grupos = {
         "Grupo A": [
-            {"dupla": "Dupla A1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla A2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla A3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Isabela Neris & Yully (CROACIA) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Rapha Barros & Tchuco (ALEMANHA) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Dani Moraes & Vinicius Japa Night (INGLATERRA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo B": [
-            {"dupla": "Dupla B1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla B2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla B3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Breno Travasso & Bruno Freire (HOLANDA) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "DN & Foca (MEXICO) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Leo Carvalho & Luan Mendes (AFRICA DO SUL)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo C": [
-            {"dupla": "Dupla C1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla C2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla C3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Jota & 2K (FRANÇA) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Leo Robalo & Leo Salama (PORTUGAL) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Breno Menezes & Paquetá (ARGENTINA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo D": [
-            {"dupla": "Dupla D1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla D2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla D3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Davizinho & Regis (BELGICA) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Bigode & Charlys (URUGUAI) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Gui Araujo & Lucas (COLOMBIA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ]
     }
 
     # ===== ELIMINATÓRIAS =====
     grupo_jogos_A = [
-        "Dupla A1 0 x 0 Dupla A2",
-        "Dupla A1 0 x 0 Dupla A3",
-        "Dupla A2 0 x 0 Dupla A3"
+        "Isabela Neris & Yully (CROACIA) 0 x 0 Rapha Barros & Tchuco (ALEMANHA)",
+        "Isabela Neris & Yully (CROACIA) 0 x 0 Dani Moraes & Vinicius Japa Night (INGLATERRA)",
+        "Rapha Barros & Tchuco (ALEMANHA) 0 x 0 Dani Moraes & Vinicius Japa Night (INGLATERRA)"
     ]
     
     grupo_jogos_B = [
-        "Dupla B1 0 x 0 Dupla B2",
-        "Dupla B1 0 x 0 Dupla B3",
-        "Dupla B2 0 x 0 Dupla B3"
+        "Breno Travasso & Bruno Freire (HOLANDA) 0 x 0 DN & Foca (MEXICO)",
+        "Breno Travasso & Bruno Freire (HOLANDA) 0 x 0 Leo Carvalho & Luan Mendes (AFRICA DO SUL)",
+        "DN & Foca (MEXICO) 0 x 0 Leo Carvalho & Luan Mendes (AFRICA DO SUL)"
     ]
     
     grupo_jogos_C = [
-        "Dupla C1 0 x 0 Dupla C2",
-        "Dupla C1 0 x 0 Dupla C3",
-        "Dupla C2 0 x 0 Dupla C3"
+        "Jota & 2K (FRANÇA) 0 x 0 Leo Robalo & Leo Salama (PORTUGAL)",
+        "Jota & 2K (FRANÇA) 0 x 0 Breno Menezes & Paquetá (ARGENTINA)",
+        "Leo Robalo & Leo Salama (PORTUGAL) 0 x 0 Breno Menezes & Paquetá (ARGENTINA)"
     ]
     
     grupo_jogos_D = [
-        "Dupla D1 0 x 0 Dupla D2",
-        "Dupla D1 0 x 0 Dupla D3",
-        "Dupla D2 0 x 0 Dupla D3"
+        "Davizinho & Regis (BELGICA) 0 x 0 Bigode & Charlys (URUGUAI)",
+        "Davizinho & Regis (BELGICA) 0 x 0 Gui Araujo & Lucas (COLOMBIA)",
+        "Bigode & Charlys (URUGUAI) 0 x 0 Gui Araujo & Lucas (COLOMBIA)"
     ]
     
     quartas = [
