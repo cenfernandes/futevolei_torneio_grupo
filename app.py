@@ -26,27 +26,27 @@ def index():
     # ===== FASE DE GRUPOS =====
     grupos = {
         "Grupo A": [
-            {"dupla": "Dani Moraes & Vinicius Japa Night (INGLATERRA)  1️⃣", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 7, "saldo": 11},
-            {"dupla": "Rapha Barros & Tchuco (ALEMANHA) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Dani Moraes & Vinicius Japa Night (INGLATERRA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 7, "saldo": 11},
+            {"dupla": "Rapha Barros & Tchuco (ALEMANHA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Isabela Neris & Yully (CROACIA)", "vitorias": 0, "derrotas": 1, "pro": 7, "contra": 18, "saldo": -11},
         ],
         
         "Grupo B": [
-            {"dupla": "Breno Travasso & Bruno Freire (HOLANDA)  1️⃣", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 15, "saldo": 3},
-            {"dupla": "Leo Carvalho & Luan Mendes (AFRICA DO SUL)  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Breno Travasso & Bruno Freire (HOLANDA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 15, "saldo": 3},
+            {"dupla": "Leo Carvalho & Luan Mendes (AFRICA DO SUL)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "DN & Foca (MEXICO)", "vitorias": 0, "derrotas": 1, "pro": 15, "contra": 18, "saldo": -3},
         ],
         
         "Grupo C": [
-            {"dupla": "Leo Robalo & Leo Salama (PORTUGAL)  1️⃣", "vitorias": 1, "derrotas": 0, "pro": 19, "contra": 17, "saldo": 2},
-            {"dupla": "Breno Menezes & Paquetá (ARGENTINA)  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Leo Robalo & Leo Salama (PORTUGAL)", "vitorias": 1, "derrotas": 0, "pro": 19, "contra": 17, "saldo": 2},
+            {"dupla": "Breno Menezes & Paquetá (ARGENTINA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Jota & 2K (FRANÇA)", "vitorias": 0, "derrotas": 1, "pro": 17, "contra": 19, "saldo": -2},
         ],
         
         "Grupo D": [
-            {"dupla": "Davizinho & Regis (BELGICA) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Bigode & Charlys (URUGUAI) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Davizinho & Regis (BELGICA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 13, "saldo": 5},
             {"dupla": "Gui Araujo & Lucas (COLOMBIA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Bigode & Charlys (URUGUAI)", "vitorias": 0, "derrotas": 1, "pro": 13, "contra": 18, "saldo": -5},
         ]
     }
 
@@ -70,7 +70,7 @@ def index():
     ]
     
     grupo_jogos_D = [
-        "Davizinho & Regis (BELGICA) 0 x 0 Bigode & Charlys (URUGUAI)",
+        "Davizinho & Regis (BELGICA) 18 x 13 Bigode & Charlys (URUGUAI)",
         "Davizinho & Regis (BELGICA) 0 x 0 Gui Araujo & Lucas (COLOMBIA)",
         "Bigode & Charlys (URUGUAI) 0 x 0 Gui Araujo & Lucas (COLOMBIA)"
     ]
