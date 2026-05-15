@@ -49,7 +49,7 @@ def index():
 
     # ===== ELIMINATÓRIAS =====
     grupo_jogos_A = [
-        "Isabela Neris & Yully (CROACIA) 0 x 0 Rapha Barros & Tchuco (ALEMANHA)",
+        "Isabela Neris & Yully (CROACIA) <br><b>0 x 0<b></br> Rapha Barros & Tchuco (ALEMANHA)",
         "Isabela Neris & Yully (CROACIA) 0 x 0 Dani Moraes & Vinicius Japa Night (INGLATERRA)",
         "Rapha Barros & Tchuco (ALEMANHA) 0 x 0 Dani Moraes & Vinicius Japa Night (INGLATERRA)"
     ]
