@@ -32,9 +32,9 @@ def index():
         ],
         
         "Grupo B": [
-            {"dupla": "Breno Travasso & Bruno Freire (HOLANDA) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "DN & Foca (MEXICO) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Leo Carvalho & Luan Mendes (AFRICA DO SUL)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Breno Travasso & Bruno Freire (HOLANDA)  1️⃣", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 15, "saldo": 3},
+            {"dupla": "Leo Carvalho & Luan Mendes (AFRICA DO SUL)  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "DN & Foca (MEXICO)", "vitorias": 0, "derrotas": 1, "pro": 15, "contra": 18, "saldo": -3},
         ],
         
         "Grupo C": [
@@ -58,7 +58,7 @@ def index():
     ]
     
     grupo_jogos_B = [
-        "Breno Travasso & Bruno Freire (HOLANDA) 0 x 0 DN & Foca (MEXICO)",
+        "Breno Travasso & Bruno Freire (HOLANDA) 18 x 15 DN & Foca (MEXICO)",
         "Breno Travasso & Bruno Freire (HOLANDA) 0 x 0 Leo Carvalho & Luan Mendes (AFRICA DO SUL)",
         "DN & Foca (MEXICO) 0 x 0 Leo Carvalho & Luan Mendes (AFRICA DO SUL)"
     ]
