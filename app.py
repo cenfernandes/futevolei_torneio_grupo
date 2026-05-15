@@ -38,9 +38,9 @@ def index():
         ],
         
         "Grupo C": [
-            {"dupla": "Jota & 2K (FRANÇA) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Leo Robalo & Leo Salama (PORTUGAL) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Breno Menezes & Paquetá (ARGENTINA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Leo Robalo & Leo Salama (PORTUGAL)  1️⃣", "vitorias": 1, "derrotas": 0, "pro": 19, "contra": 17, "saldo": 2},
+            {"dupla": "Breno Menezes & Paquetá (ARGENTINA)  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Jota & 2K (FRANÇA)", "vitorias": 0, "derrotas": 1, "pro": 17, "contra": 19, "saldo": -2},
         ],
         
         "Grupo D": [
@@ -62,9 +62,9 @@ def index():
         "Breno Travasso & Bruno Freire (HOLANDA) 0 x 0 Leo Carvalho & Luan Mendes (AFRICA DO SUL)",
         "DN & Foca (MEXICO) 0 x 0 Leo Carvalho & Luan Mendes (AFRICA DO SUL)"
     ]
-    
+  
     grupo_jogos_C = [
-        "Jota & 2K (FRANÇA) 0 x 0 Leo Robalo & Leo Salama (PORTUGAL)",
+        "Jota & 2K (FRANÇA) 17 x 19 Leo Robalo & Leo Salama (PORTUGAL)",
         "Jota & 2K (FRANÇA) 0 x 0 Breno Menezes & Paquetá (ARGENTINA)",
         "Leo Robalo & Leo Salama (PORTUGAL) 0 x 0 Breno Menezes & Paquetá (ARGENTINA)"
     ]
