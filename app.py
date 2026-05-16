@@ -35,9 +35,9 @@ def index():
         ],
         
         "Grupo C": [
+            {"dupla": "Michelle Santos (EUA)", "vitorias": 2, "derrotas": 0, "pro": 36, "contra": 28, "saldo": 8},
             {"dupla": "Giovanna Trotte (COLOMBIA)", "vitorias": 1, "derrotas": 1, "pro": 33, "contra": 27, "saldo": 6},
-            {"dupla": "Michelle Santos (EUA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 15, "saldo": 3},
-            {"dupla": "Manuela Mesquita (JAPAO)", "vitorias": 0, "derrotas": 1, "pro": 9, "contra": 18, "saldo": -9},
+            {"dupla": "Manuela Mesquita (JAPAO)", "vitorias": 0, "derrotas": 2, "pro": 22, "contra": 36, "saldo": -14},
         ],
         
         "Grupo D": [
@@ -68,7 +68,7 @@ def index():
     
     grupo_jogos_C = [
         "Michelle Santos (EUA) 18 x 15 Giovanna Trotte (COLOMBIA)",
-        "Michelle Santos (EUA) 0 x 0 Manuela Mesquita (JAPAO)",
+        "Michelle Santos (EUA) 18 x 13 Manuela Mesquita (JAPAO)",
         "Giovanna Trotte (COLOMBIA) 18 x 9 Manuela Mesquita (JAPAO)"
     ]
     
