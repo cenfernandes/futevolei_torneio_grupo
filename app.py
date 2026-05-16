@@ -23,32 +23,32 @@ def index():
     # ===== FASE DE GRUPOS =====
     grupos = {
         "Grupo A": [
-            {"dupla": "Heitor Foquinha (AFRICA DO SUL) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Lucila (CROACIA) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Heitor Foquinha (AFRICA DO SUL)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Lucila (CROACIA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Gabrielle Sena (PORTUGAL)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo B": [
-            {"dupla": "Beatriz Moreira (MEXICO) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "James Fogão (HOLANDA) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Beatriz Moreira (MEXICO)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "James Fogão (HOLANDA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Maria Luiza (ARGENTINA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo C": [
-            {"dupla": "Michelle Santos (EUA) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Giovanna Trotte (COLOMBIA) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Michelle Santos (EUA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Giovanna Trotte (COLOMBIA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Manuela Mesquita (JAPAO)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo D": [
-            {"dupla": "Nathalia Santana (ALEMANHA) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Fabiana (FRANÇA) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Nathalia Santana (ALEMANHA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Fabiana (FRANÇA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Beatriz Castro (INGLATERRA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo E": [
-            {"dupla": "Giulia Medeiros (ESPANHA)  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Danielle Rodrigues (BELGICA)  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Giulia Medeiros (ESPANHA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Danielle Rodrigues (BELGICA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Mariana Noga (URUGUAI)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ]
     }
