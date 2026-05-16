@@ -42,8 +42,8 @@ def index():
         
         "Grupo D": [
             {"dupla": "Nathalia Santana (ALEMANHA)", "vitorias": 1, "derrotas": 0, "pro": 19, "contra": 17, "saldo": 2},
-            {"dupla": "Beatriz Castro (INGLATERRA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Fabiana (FRANÇA)", "vitorias": 0, "derrotas": 1, "pro": 17, "contra": 19, "saldo": -2},
+            {"dupla": "Beatriz Castro (INGLATERRA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 16, "saldo": 2},
+            {"dupla": "Fabiana (FRANÇA)", "vitorias": 0, "derrotas": 2, "pro": 33, "contra": 37, "saldo": -4},
         ],
         
         "Grupo E": [
@@ -75,7 +75,7 @@ def index():
     grupo_jogos_D = [
         "Nathalia Santana (ALEMANHA) 19 x 17 Fabiana (FRANÇA)",
         "Nathalia Santana (ALEMANHA) 0 x 0 Beatriz Castro (INGLATERRA)",
-        "Fabiana (FRANÇA) 0 x 0 Beatriz Castro (INGLATERRA)"
+        "Fabiana (FRANÇA) 16 x 18 Beatriz Castro (INGLATERRA)"
     ]
     
     grupo_jogos_E = [
