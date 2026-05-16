@@ -45,8 +45,8 @@ def index():
         
         "Grupo D": [
             {"dupla": "Davizinho & Regis (BELGICA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 13, "saldo": 5},
-            {"dupla": "Gui Araujo & Lucas (COLOMBIA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Bigode & Charlys (URUGUAI)", "vitorias": 0, "derrotas": 1, "pro": 13, "contra": 18, "saldo": -5},
+            {"dupla": "Gui Araujo & Lucas (COLOMBIA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 13, "saldo": 5},
+            {"dupla": "Bigode & Charlys (URUGUAI)", "vitorias": 0, "derrotas": 2, "pro": 26, "contra": 36, "saldo": -10},
         ]
     }
 
@@ -72,7 +72,7 @@ def index():
     grupo_jogos_D = [
         "Davizinho & Regis (BELGICA) 18 x 13 Bigode & Charlys (URUGUAI)",
         "Davizinho & Regis (BELGICA) 0 x 0 Gui Araujo & Lucas (COLOMBIA)",
-        "Bigode & Charlys (URUGUAI) 0 x 0 Gui Araujo & Lucas (COLOMBIA)"
+        "Bigode & Charlys (URUGUAI) 13 x 18 Gui Araujo & Lucas (COLOMBIA)"
     ]
     
     quartas = [
