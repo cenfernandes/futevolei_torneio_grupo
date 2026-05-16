@@ -47,9 +47,9 @@ def index():
         ],
         
         "Grupo E": [
-            {"dupla": "Giulia Medeiros (ESPANHA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Danielle Rodrigues (BELGICA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Giulia Medeiros (ESPANHA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 13, "saldo": 5},
             {"dupla": "Mariana Noga (URUGUAI)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Danielle Rodrigues (BELGICA)", "vitorias": 0, "derrotas": 1, "pro": 13, "contra": 18, "saldo": -5},
         ]
     }
 
@@ -79,7 +79,7 @@ def index():
     ]
     
     grupo_jogos_E = [
-        "Giulia Medeiros (ESPANHA) 0 x 0 Danielle Rodrigues (BELGICA)",
+        "Giulia Medeiros (ESPANHA) 18 x 13 Danielle Rodrigues (BELGICA)",
         "Giulia Medeiros (ESPANHA) 0 x 0 Mariana Noga (URUGUAI)",
         "Danielle Rodrigues (BELGICA) 0 x 0 Mariana Noga (URUGUAI)"
     ]
