@@ -23,8 +23,8 @@ def index():
     # ===== FASE DE GRUPOS =====
     grupos = {
         "Grupo A": [
-            {"dupla": "Gabrielle Sena (PORTUGAL)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 9, "saldo": 9},
-            {"dupla": "Heitor Foquinha (AFRICA DO SUL)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 15, "saldo": 3},
+            {"dupla": "Heitor Foquinha (AFRICA DO SUL)", "vitorias": 2, "derrotas": 0, "pro": 36, "contra": 19, "saldo": 17},
+            {"dupla": "Gabrielle Sena (PORTUGAL)", "vitorias": 1, "derrotas": 1, "pro": 22, "contra": 27, "saldo": -5},
             {"dupla": "Lucila (CROACIA)", "vitorias": 0, "derrotas": 2, "pro": 24, "contra": 36, "saldo": -12},
         ],
         
@@ -56,7 +56,7 @@ def index():
     # ===== ELIMINATÓRIAS =====
     grupo_jogos_A = [
         "Heitor Foquinha (AFRICA DO SUL) 18 x 15 Lucila (CROACIA)",
-        "Heitor Foquinha (AFRICA DO SUL) 0 x 0 Gabrielle Sena (PORTUGAL)",
+        "Heitor Foquinha (AFRICA DO SUL) 18 x 4 Gabrielle Sena (PORTUGAL)",
         "Lucila (CROACIA) 9 x 18 Gabrielle Sena (PORTUGAL)"
     ]
     
