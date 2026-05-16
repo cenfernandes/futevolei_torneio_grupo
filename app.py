@@ -27,8 +27,8 @@ def index():
     grupos = {
         "Grupo A": [
             {"dupla": "Dani Moraes & Vinicius Japa Night (INGLATERRA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 7, "saldo": 11},
-            {"dupla": "Rapha Barros & Tchuco (ALEMANHA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Isabela Neris & Yully (CROACIA)", "vitorias": 0, "derrotas": 1, "pro": 7, "contra": 18, "saldo": -11},
+            {"dupla": "Rapha Barros & Tchuco (ALEMANHA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 7, "saldo": 11},
+            {"dupla": "Isabela Neris & Yully (CROACIA)", "vitorias": 0, "derrotas": 2, "pro": 14, "contra": 36, "saldo": -22},
         ],
         
         "Grupo B": [
@@ -52,7 +52,7 @@ def index():
 
     # ===== ELIMINATÓRIAS =====
     grupo_jogos_A = [
-        "Isabela Neris & Yully (CROACIA) 0 x 0 Rapha Barros & Tchuco (ALEMANHA)",
+        "Isabela Neris & Yully (CROACIA) 7 x 18 Rapha Barros & Tchuco (ALEMANHA)",
         "Isabela Neris & Yully (CROACIA) 7 x 18 Dani Moraes & Vinicius Japa Night (INGLATERRA)",
         "Rapha Barros & Tchuco (ALEMANHA) 0 x 0 Dani Moraes & Vinicius Japa Night (INGLATERRA)"
     ]
