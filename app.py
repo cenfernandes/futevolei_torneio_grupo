@@ -23,84 +23,65 @@ def index():
     # ===== FASE DE GRUPOS =====
     grupos = {
         "Grupo A": [
-            {"dupla": "Heitor Foquinha (AFRICA DO SUL)", "vitorias": 2, "derrotas": 0, "pro": 36, "contra": 19, "saldo": 17},
-            {"dupla": "Gabrielle Sena (PORTUGAL)", "vitorias": 1, "derrotas": 1, "pro": 22, "contra": 27, "saldo": -5},
-            {"dupla": "Lucila (CROACIA)", "vitorias": 0, "derrotas": 2, "pro": 24, "contra": 36, "saldo": -12},
+            {"dupla": "Guilherme Yath & Heitor Simões (MEXICO) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Rafael & Vinicius Japa Night (CROACIA) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "João Caovila & Lucca (PORTUGAL)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo B": [
-            {"dupla": "Maria Luiza (ARGENTINA)", "vitorias": 2, "derrotas": 0, "pro": 36, "contra": 32, "saldo": 4},
-            {"dupla": "James Fogão (HOLANDA)", "vitorias": 1, "derrotas": 1, "pro": 34, "contra": 33, "saldo": 1},
-            {"dupla": "Beatriz Moreira (MEXICO)", "vitorias": 0, "derrotas": 2, "pro": 31, "contra": 36, "saldo": -5},
+            {"dupla": "Arthur Medeiros & Victor (HOLANDA)  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "LC & Luiz Fernando (COLOMBIA) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Caio & Hernane (ALEMANHA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo C": [
-            {"dupla": "Michelle Santos (EUA)", "vitorias": 2, "derrotas": 0, "pro": 36, "contra": 28, "saldo": 8},
-            {"dupla": "Giovanna Trotte (COLOMBIA)", "vitorias": 1, "derrotas": 1, "pro": 33, "contra": 27, "saldo": 6},
-            {"dupla": "Manuela Mesquita (JAPAO)", "vitorias": 0, "derrotas": 2, "pro": 22, "contra": 36, "saldo": -14},
+            {"dupla": "Breno Menezes & Junior (ARGENTINA) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Jhonathan & Rafael Gouveia (BÉLGICA) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "MK & Matheus (INGLATERRA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo D": [
-            {"dupla": "Beatriz Castro (INGLATERRA)", "vitorias": 2, "derrotas": 0, "pro": 36, "contra": 29, "saldo": 7},
-            {"dupla": "Nathalia Santana (ALEMANHA)", "vitorias": 1, "derrotas": 1, "pro": 32, "contra": 35, "saldo": -3},
-            {"dupla": "Fabiana (FRANÇA)", "vitorias": 0, "derrotas": 2, "pro": 33, "contra": 37, "saldo": -4},
-        ],
-        
-        "Grupo E": [
-            {"dupla": "Giulia Medeiros (ESPANHA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 13, "saldo": 5},
-            {"dupla": "Danielle Rodrigues (BELGICA)", "vitorias": 1, "derrotas": 1, "pro": 31, "contra": 33, "saldo": -2},
-            {"dupla": "Mariana Noga (URUGUAI)", "vitorias": 0, "derrotas": 1, "pro": 15, "contra": 18, "saldo": -3},
+            {"dupla": "Carlinhos & Silvio (ESPANHA) 1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Cadu & João (JAPAO) 2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Diogo & José (URUGUAI)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ]
     }
 
     # ===== ELIMINATÓRIAS =====
     grupo_jogos_A = [
-        "Heitor Foquinha (AFRICA DO SUL) 18 x 15 Lucila (CROACIA)",
-        "Heitor Foquinha (AFRICA DO SUL) 18 x 4 Gabrielle Sena (PORTUGAL)",
-        "Lucila (CROACIA) 9 x 18 Gabrielle Sena (PORTUGAL)"
+        "Guilherme Yath & Heitor Simões (MEXICO) 0 x 0 Rafael & Vinicius Japa Night (CROACIA)",
+        "Guilherme Yath & Heitor Simões (MEXICO) 0 x 0 João Caovila & Lucca (PORTUGAL)",
+        "Rafael & Vinicius Japa Night (CROACIA) 0 x 0 João Caovila & Lucca (PORTUGAL)"
     ]
     
     grupo_jogos_B = [
-        "Beatriz Moreira (MEXICO) 15 x 18 James Fogão (HOLANDA)",
-        "Beatriz Moreira (MEXICO) 16 x 18 Maria Luiza (ARGENTINA)",
-        "James Fogão (HOLANDA) 16 x 18 Maria Luiza (ARGENTINA)"
+        "Arthur Medeiros & Victor (HOLANDA) 0 x 0 LC & Luiz Fernando (COLOMBIA)",
+        "Arthur Medeiros & Victor (HOLANDA) 0 x 0 Caio & Hernane (ALEMANHA)",
+        "LC & Luiz Fernando (COLOMBIA) 0 x 0 Caio & Hernane (ALEMANHA)"
     ]
     
     grupo_jogos_C = [
-        "Michelle Santos (EUA) 18 x 15 Giovanna Trotte (COLOMBIA)",
-        "Michelle Santos (EUA) 18 x 13 Manuela Mesquita (JAPAO)",
-        "Giovanna Trotte (COLOMBIA) 18 x 9 Manuela Mesquita (JAPAO)"
+        "Breno Menezes & Junior (ARGENTINA) 0 x 0 Jhonathan & Rafael Gouveia (BÉLGICA)",
+        "Breno Menezes & Junior (ARGENTINA) 0 x 0 MK & Matheus (INGLATERRA)",
+        "Jhonathan & Rafael Gouveia (BÉLGICA) 0 x 0 MK & Matheus (INGLATERRA)"
     ]
     
     grupo_jogos_D = [
-        "Nathalia Santana (ALEMANHA) 19 x 17 Fabiana (FRANÇA)",
-        "Nathalia Santana (ALEMANHA) 13 x 18 Beatriz Castro (INGLATERRA)",
-        "Fabiana (FRANÇA) 16 x 18 Beatriz Castro (INGLATERRA)"
-    ]
-    
-    grupo_jogos_E = [
-        "Giulia Medeiros (ESPANHA) 18 x 13 Danielle Rodrigues (BELGICA)",
-        "Giulia Medeiros (ESPANHA) 0 x 0 Mariana Noga (URUGUAI)",
-        "Danielle Rodrigues (BELGICA) 18 x 15 Mariana Noga (URUGUAI)"
-    ]
-
-    oitavas = [
-        "Atleta 1 0 x 0 Atleta 5",
-        "Atleta 2 0 x 0 Atleta 6",
-        "Atleta 3 0 x 0 Atleta 7",
-        "Atleta 4 0 x 0 Atleta 8"
+        "Carlinhos & Silvio (ESPANHA) 0 x 0 Cadu & João (JAPAO)",
+        "Carlinhos & Silvio (ESPANHA) 0 x 0 Diogo & José (URUGUAI)",
+        "Cadu & João (JAPAO) 0 x 0 Diogo & José (URUGUAI)"
     ]
     
     quartas = [
-        "Atleta Grupo 1 0 x 0 Atleta Oitavas 1 ",
-        "Atleta Grupo 2 0 x 0 Atleta Oitavas 2",
-        "Atleta Grupo 3 0 x 0 Atleta Oitavas 3",
-        "Atleta Grupo 4 0 x 0 Atleta Oitavas 4"
+        "Dupla A1 0 x 0 Dupla B2",
+        "Dupla B1 0 x 0 Dupla A2",
+        "Dupla C1 0 x 0 Dupla D2",
+        "Dupla D1 0 x 0 Dupla C2"
     ]
 
     semifinais = [
-        "Atleta Quarta 1 0 x 0 Atleta Quarta 3",
-        "Atleta Quarta 2 0 x 0 Atleta Quarta 4"
+        "Vencedor Quarta 1 0 x 0 Vencedor Quarta 3",
+        "Vencedor Quarta 2 0 x 0 Vencedor Quarta 4"
     ]
 
     terceiro = [
@@ -118,8 +99,6 @@ def index():
         grupo_jogos_B = grupo_jogos_B,
         grupo_jogos_C = grupo_jogos_C,
         grupo_jogos_D = grupo_jogos_D,
-        grupo_jogos_E = grupo_jogos_E,
-        oitavas=oitavas,
         quartas=quartas,
         semifinais=semifinais,
         terceiro=terceiro,
