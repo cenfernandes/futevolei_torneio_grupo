@@ -23,8 +23,8 @@ def index():
     # ===== FASE DE GRUPOS =====
     grupos = {
         "Grupo A": [
-            {"dupla": "Heitor Foquinha (AFRICA DO SUL)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 15, "saldo": 3},
             {"dupla": "Gabrielle Sena (PORTUGAL)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 9, "saldo": 9},
+            {"dupla": "Heitor Foquinha (AFRICA DO SUL)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 15, "saldo": 3},
             {"dupla": "Lucila (CROACIA)", "vitorias": 0, "derrotas": 2, "pro": 24, "contra": 36, "saldo": -12},
         ],
         
