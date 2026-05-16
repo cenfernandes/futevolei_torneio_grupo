@@ -29,9 +29,9 @@ def index():
         ],
         
         "Grupo B": [
-            {"dupla": "Beatriz Moreira (MEXICO)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "James Fogão (HOLANDA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "James Fogão (HOLANDA)", "vitorias": 1, "derrotas": 0, "pro": 18, "contra": 15, "saldo": 3},
             {"dupla": "Maria Luiza (ARGENTINA)", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Beatriz Moreira (MEXICO)", "vitorias": 0, "derrotas": 1, "pro": 15, "contra": 18, "saldo": -3},
         ],
         
         "Grupo C": [
@@ -61,7 +61,7 @@ def index():
     ]
     
     grupo_jogos_B = [
-        "Beatriz Moreira (MEXICO) 0 x 0 James Fogão (HOLANDA)",
+        "Beatriz Moreira (MEXICO) 15 x 18 James Fogão (HOLANDA)",
         "Beatriz Moreira (MEXICO) 0 x 0 Maria Luiza (ARGENTINA)",
         "James Fogão (HOLANDA) 0 x 0 Maria Luiza (ARGENTINA)"
     ]
