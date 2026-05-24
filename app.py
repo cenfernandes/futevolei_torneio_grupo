@@ -23,26 +23,26 @@ def index():
     # ===== FASE DE GRUPOS =====
     grupos = {
         "Grupo A": [
-            {"dupla": "Dupla A1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla A2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Dupla A1", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Dupla A2", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla A3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo B": [
-            {"dupla": "Dupla B1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla B2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Dupla B1", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Dupla B2", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla B3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo C": [
-            {"dupla": "Dupla C1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla C2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Dupla C1", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Dupla C2", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla C3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ],
         
         "Grupo D": [
-            {"dupla": "Dupla D1  1️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
-            {"dupla": "Dupla D2  2️⃣", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Dupla D1", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
+            {"dupla": "Dupla D2", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
             {"dupla": "Dupla D3", "vitorias": 0, "derrotas": 0, "pro": 0, "contra": 0, "saldo": 0},
         ]
     }
